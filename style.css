@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+:root{
+    --Blue-500: hsl(215, 51%, 70%);
+    --Cyan-400: hsl(178, 100%, 50%);
+    --Blue-950mg: hsl(217, 54%, 11%);
+    --Blue-900cb: hsl(216, 50%, 16%);
+    --Blue-800l: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit",sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Blue-950mg);
+}
+.card{
+    background: var(--Blue-900cb);
+    padding: 1rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    width: 19%;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    align-self: center;
+    border-radius: 25px;
+}
+.images img{
+    height: 12rem;
+    width: 11rem;
+    border-radius: 10px;
+}
+.equili h1{
+    font-size: 12px;
+    padding: 10px 0px;
+    color: var(--White);
+}
+.equili h1:hover{
+    cursor: pointer;
+    color: var(--Cyan-400);
+}
+
+.msg p{
+    font-size: 10px;
+    color: var(--Blue-500);
+}
+.coin-time{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 1rem 0 ;
+
+}
+.eth{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.2rem;
+    font-weight: 700;
+    color: var(--Cyan-400);
+}
+.eth p{
+    font-size: 10px;
+}
+.days{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.2rem;
+ 
+}
+.days p{
+    font-size: 10px;
+    color: var(--Blue-500);
+    font-weight: 300;
+}
+
+hr{
+    border: 1px solid var(--Blue-800l);
+}
+.creator{
+    display: flex;
+    flex-direction: row;
+    /* background-color: antiquewhite; */
+}
+.avatar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 0 ;
+    gap: 0.4rem;
+}
+.avatar img{
+    height: 15px;
+    width: 15px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+.avatar p{
+    font-size: 10px;
+}
+.av-name {
+    display: flex;
+    align-items: center;
+    padding-left: 0.2rem;
+}
+.av-name p{
+  font-size: 10px;
+  color: var(--White);
+}
+.av-name p:hover{
+    color: var(--Cyan-400);
+    cursor: pointer;
+}
